@@ -5,6 +5,7 @@ Hello.
 This is a basic example to implement a Navigation Drawer Menu in a Xamarin.Forms Solution using Syncfusion.
 You can find the step-by-step guide at this address:
 https://www.c-sharpcorner.com/article/navigation-menu-with-syncfusion-in-xamarin-forms/
+The used programming language is C#.
 
 Thank you for your interest and feel free to contribute.
 
