@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NavigationDrawer"
+             xmlns:navigationdrawer="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
+             x:Class="NavigationDrawer.MainPage">
+
+
+    <!-- Initialize the Navigation Menu -->
+    <navigationdrawer:SfNavigationDrawer x:Name="navigationDrawer" DrawerWidth ="180">
+        <navigationdrawer:SfNavigationDrawer.ContentView>
+            <Grid x:Name="mainLayout" BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackLayout BackgroundColor="Turquoise" Orientation="Horizontal">
+                    <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" 
+                            FontSize="20" BackgroundColor="Turquoise" Clicked="hamburgerButton_Clicked"/>
+                    <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
+                           Text="Home" FontSize="Medium" TextColor="Blue" BackgroundColor="Turquoise"/>
+                </StackLayout>
+                <Label Grid.Row="1" x:Name="contentLabel" VerticalOptions="Center" HorizontalOptions="Center" 
+                       Text="Home Page" FontSize="14" TextColor="Black"/>
+            </Grid>
+        </navigationdrawer:SfNavigationDrawer.ContentView>
+
+        <!-- Initialize the Info Space at the top of the drawer. It can be used to add an Image or Info text -->
+        <navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
+            <Grid BackgroundColor="Turquoise">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Label Text="User" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" 
+                       FontSize="Medium" TextColor="Blue"/>
+            </Grid>
+        </navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
+
+        <!-- Initialize the ListView inside the drawer -->
+        <navigationdrawer:SfNavigationDrawer.DrawerContentView>
+            <ListView x:Name="listView" ItemSelected="listView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HeightRequest="40">
+                                <Label Margin="10,10,0,0" Text="{Binding}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </navigationdrawer:SfNavigationDrawer.DrawerContentView>
+    </navigationdrawer:SfNavigationDrawer>
+
+</ContentPage>

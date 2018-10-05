@@ -1,0 +1,1 @@
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer.UWP\NavigationDrawer.UWP.csproj;x86

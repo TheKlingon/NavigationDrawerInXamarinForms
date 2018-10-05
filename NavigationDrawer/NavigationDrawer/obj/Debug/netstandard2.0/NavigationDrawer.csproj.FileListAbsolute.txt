@@ -1,0 +1,9 @@
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\bin\Debug\netstandard2.0\NavigationDrawer.deps.json
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\bin\Debug\netstandard2.0\NavigationDrawer.dll
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\obj\Debug\netstandard2.0\NavigationDrawer.csprojAssemblyReference.cache
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\obj\Debug\netstandard2.0\NavigationDrawer.csproj.CoreCompileInputs.cache
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\obj\Debug\netstandard2.0\NavigationDrawer.AssemblyInfoInputs.cache
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\obj\Debug\netstandard2.0\NavigationDrawer.AssemblyInfo.cs
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\bin\Debug\netstandard2.0\NavigationDrawer.pdb
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\obj\Debug\netstandard2.0\NavigationDrawer.dll
+G:\VisualStudio2017\NavigationDrawer\NavigationDrawer\NavigationDrawer\obj\Debug\netstandard2.0\NavigationDrawer.pdb

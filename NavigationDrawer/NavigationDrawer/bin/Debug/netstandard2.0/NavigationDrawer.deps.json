@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "423dea04a5414e966ea1f22eab06efcd75d596ae"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "NavigationDrawer/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.SfNavigationDrawer": "16.1.0.37",
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "runtime": {
+          "NavigationDrawer.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Syncfusion.Xamarin.SfNavigationDrawer/16.1.0.37": {
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfNavigationDrawer.XForms.dll": {
+            "assemblyVersion": "16.1451.0.37",
+            "fileVersion": "16.1451.0.37"
+          }
+        }
+      },
+      "Xamarin.Forms/3.0.0.482510": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NavigationDrawer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfNavigationDrawer/16.1.0.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1TJunq1Sjkm0yNvTpiAKRBT5zGHCMnfEtsKUSuoPxBcSIMp7DcErWCTk9AIWom1S8ypZdE80+QwZ2kE+ThkZsw==",
+      "path": "syncfusion.xamarin.sfnavigationdrawer/16.1.0.37",
+      "hashPath": "syncfusion.xamarin.sfnavigationdrawer.16.1.0.37.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.0.0.482510": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
+      "path": "xamarin.forms/3.0.0.482510",
+      "hashPath": "xamarin.forms.3.0.0.482510.nupkg.sha512"
+    }
+  }
+}
